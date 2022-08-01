@@ -94,7 +94,11 @@ while choice != 'e':
     else:
         print("\n[ Invalid choice ]")
 
-    choice = input("\nchoice: ").lower()
-
+    print("\n== Volume of Shape ==")
+    print("1. Rectangular")
+    print("2. Cube")
+    print("3. Cylinder")
+    print("E. Exit")
+    choice = input("choice: ").lower()             # make user input to lower case, make is easier for while-loop condition
 
 print("\n== Exit Program ==")
